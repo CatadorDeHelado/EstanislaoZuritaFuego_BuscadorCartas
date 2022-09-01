@@ -92,6 +92,14 @@ ul{
     }
 }
 
+#hover {
+    transition: all 0.5s;
+}
+
+#hover:hover{
+    transform: scale(1.1);
+}
+
 @media screen and (max-width: 480px) {
     body {
         height: 100vh;
