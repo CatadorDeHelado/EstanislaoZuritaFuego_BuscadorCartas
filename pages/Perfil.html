@@ -20,31 +20,34 @@
         <li> <a href="./../index.html">Inicio</a> </li>
         <li> <a href="./BusquedaAvanzada.html">Busqueda Avanzada</a> </li>
         <li> <a href="./FormularioContacto.html">Contacto</a> </li>
-        <li> <a href="./Iframe.html">Populares</a> </li>
     </ul>
 
 
-    <div class="text">
-        <h3>Iniciar sesion</h3>
-        <h5>Si no tienes una cuenta puedes <a href="./Registro.html">Registrarte Aqui</a> </h5>
-    </div>
+    <div class="login-form">
+        <div class="text">
+            <h3>Iniciar sesion</h3>
+            <h5>Si no tienes una cuenta puedes <a id="registerLink" href="./Registro.html">Registrarte Aqui</a> </h5>
+        </div>
+        
+        
+        <div class="email">
+            <label> Mail o Usuario</label>
+            <input class="border_radius backgorund_color_input" placeholder="Email" type="email" type="text" id="nombre" />
+        </div>
 
+        <div class="password">
+            <label>Constraseña</label>
+            <input class="border_radius backgorund_color_input" placeholder="Password" type="password" id="contraseña" />
+        </div>
 
-    <div class="email">
-        <label> Mail o Usuario</label>
-        <input class="border_radius backgorund_color_input" type="email" type="text" id="nombre" />
-    </div>
-    <div class="password">
-        <label>Constraseña</label>
-        <input class="border_radius backgorund_color_input" type="password" id="contraseña" />
-    </div>
-    <div class="button">
-        <label>Recordarme</label>
-        <input type="checkbox" id="Recordarme">
-    </div>
-
-    <div class="button1">
-        <input class="backgorund_color_button border_radius" type="submit" value="Iniciar Sesion" />
+        <div class="button">
+            <label>Recordarme</label>
+            <input type="checkbox" id="Recordarme">
+        </div>
+        
+        <div class="button1">
+            <button class="backgorund_color_button border_radius" type="submit">Iniciar Sesion</button>
+        </div>
     </div>
 
 </body>

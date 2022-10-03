@@ -1,0 +1,34 @@
+// MAPs ---------------------------------------------
+
+$colors: (
+  "slight-grey": #5e5e5e5e,
+  "white": #FFFFFFFF,
+  "slight-clear-white": rgba($color: #FFFFFF, $alpha: 0.6),
+  "clear-white": rgba($color: #FFFFFF, $alpha: 0.18),
+  "link-color": #ffffffff,
+  "turquoise": #27CEDA
+);
+$gradients: (
+    "body-gradient":  linear-gradient(180deg, #0bd3e0 0%, #070e34 67.19%)
+);
+// --------------------------------------------------
+
+// Mixins ---------------------------------------------
+@mixin flex {
+  display: flex;
+}
+
+@mixin spacearound-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+@mixin center-flex {
+  display: flex;
+  justify-content: center;
+}
+// --------------------------------------------------
+
+html{
+  font-family: "DM Sans", sans-serif;
+}

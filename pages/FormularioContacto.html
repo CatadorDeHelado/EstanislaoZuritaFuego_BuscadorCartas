@@ -10,42 +10,47 @@
 </head>
 
 <body>
-  <img class="logo" src="../assets/logo.png" alt="logo">
+  <nav class="myNavbar">
+    <img class="logo" src="../assets/logo.png" alt="logo">
+    <h4 class="header">Encontrá tus cartas de MTG</h4>
+    <ul class="ul">
+      <li><a href="/pages/BusquedaAvanzada.html">Busqueda Avanzada</a></li>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="/pages/Perfil.html">Perfil</a></li>
+    </ul>
+  </nav>
 
-  <h4 class="header"> Encontrá tus cartas de MTG </h4>
 
-  <ul class="ul">
-    <li> <a href="./../index.html">Inicio</a> </li>
-    <li> <a href="./BusquedaAvanzada.html">Busqueda Avanzada</a> </li>
-    <li> <a href="./Perfil.html">Perfil</a> </li>
-    <li> <a href="./Iframe.html">Populares</a> </li>
-  </ul>
+  <div class="page">
+    <div class="form">
+      <div class="text">
+        <h5>Contactanos</h5>
+        <p>Dejanos tus datos, describinos tu consulta y nosotros te contactaremos a la brevedad</p>
+      </div>
 
-  <div class="text">
-    <h5>Contactanos</h5>
-    <p>Dejanos tus datos, describinos tu consulta y nosotros te contactaremos a la brevedad</p>
+      <div class="name">
+
+        <input placeholder="Nombre y Apellido" class="border_radius backgorund_color_input" type="text" id="nombre" />
+      </div>
+
+      <div class="email">
+        <input placeholder="E-mail" class="border_radius backgorund_color_input" type="email" id="email" />
+      </div>
+
+      <div class="message">
+        <textarea class="border_radius backgorund_color_input">Escriba su consulta aqui</textarea>
+      </div>
+
+      <div class="button">
+        <input class="border_radius backgorund_color_button" type="submit" value="Enviar" />
+      </div>
+    </div>
+
+    <div class="content">
+      <img class="img_size" src="../assets/cards/PCY/pcy-45-rhystic-study.png" alt="demonic tutor">
+    </div>
+
   </div>
-
-    <div class="name">
-      <label> Nombre y Apellido</label>
-      <input class="border_radius backgorund_color_input" type="text" id="nombre" />
-    </div>
-
-    <div class="email">
-      <label> E-mail</label>
-      <input class="border_radius backgorund_color_input" type="email" id="email" />
-    </div>
-
-    <div class="message">
-      <textarea class="border_radius backgorund_color_input">Escriba su consulta aqui</textarea>
-    </div>
-
-    <div class="button">
-      <input class="border_radius backgorund_color_button" type="submit" value="Enviar" />
-    </div>
-
-    
-
 </body>
 
 </html>
